@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>🐬Lachlan's Peronal Site</title>
+  <title>🐬Lachlan's Contact Page</title>
   <link rel="stylesheet" href="css/styles.css"></link>
   
 </head>
@@ -12,6 +12,7 @@
   <h1>Contact Me</h1>
   <p>
     <h3>Email me at <em>fpbtheglen@gmail.com</em></h3>
+    <h4>Please include the following details</h4>
   </p>
   <hr>
   <form class="" action="mailto:fpbtheglen@gmail.com" method="post" enctype="text/plain">
@@ -21,8 +22,18 @@
     <label>Your Email:</label>
     <input type="email" name="yourEmail" value="">
     <br>
+    <label>Select todays Date:</label>
+    <input type="date" name="date" value="">
+    <br>
     <label>Your Message:</label><br>
     <textarea name="yourMessage" rows="10" cols="30"></textarea>
+    <br>
+    <label>Select if you would like to be added to the mailing list</label>
+    <input type="radio" name="yes" value="Yes">
+    <br>
+    <label>Create a Password of minimum 8 characters including one number, one uppercase and one symbol:</label>
+    <input type="password" name="password" value="" id="password" name="password" required minlength="8" maxlength="16" size="10">
+    <br>
     <br>
     <input type="submit">
 
